@@ -20,7 +20,7 @@ bot.on('message', async (msg) => {
 
   if (text === '/start') return;
 
-  if (!/^[6-9]\\d{9}$/.test(text)) {
+  if (!/^[6-9]\d{9}$/.test(text)) {
     return bot.sendMessage(chatId, 'Please valid 10 digit mobile number bhejo.');
   }
 
