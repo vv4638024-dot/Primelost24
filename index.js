@@ -27,12 +27,11 @@ bot.on('message', async (msg) => {
   try {
     const response = await axios.post(
       API_URL,
-      { number: text },
-      {
-        headers: {
-          Authorization: API_KEY
-        }
-      }
+      
+     {
+  number: text,
+  api_key: API_KEY
+     }
     );
 
     bot.sendMessage(chatId, JSON.stringify(response.data, null, 2));
