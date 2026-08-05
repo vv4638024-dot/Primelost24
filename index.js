@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
 const TOKEN = '8836862263:AAGfdDIAUsbsGwXQgCjx5b0QN0-gIb6m_wQ';
-const API_URL = 'https://ethicaltabbo.in/api/lookup';
+const API_URL = 'https://bronx-web-api.onrender.com/api/key-bronx/numleak?key=demo&num=9876543210';
 const API_KEY = 'aditya';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
