@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const TOKEN = '8836862263:AAGfdDIAUsbsGwXQgCjx5b0QN0-gIb6m_wQ';
+const TOKEN = '';
 const API_URL = 'https://bronx-web-api.onrender.com/api/key-bronx/numleak?key=demo-in&num=9876543210';
 const API_KEY = 'demo-in';
 
